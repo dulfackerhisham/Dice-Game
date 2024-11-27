@@ -1,13 +1,17 @@
+import RollDice from "./RollDice"
 import SelectNumbers from "./SelectNumbers"
 import TotalScore from "./TotalScore"
 import styled from "styled-components"
 
 const GamePlay = () => {
   return (
+    <>
     <Main>
         <TotalScore/>
         <SelectNumbers/>
     </Main>
+    <RollDice/>
+    </>
   )
 }
 
